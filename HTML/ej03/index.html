@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+
+    <h1>Formulario de registro</h1>
+
+    <form action="" method="get">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" required>
+        </div>
+        <br>
+        <div><b>Dirección</b></div>
+            <div>
+                <label for="tipo_via">Tipo de vía: </label>
+                <input type="text" name="tipo_via" id="tipo_via" required>
+            </div><br>
+            <div>
+                <label for="nombre_via">Nombre de la vía: </label>
+                <input type="text" name="nombre_via" id="nombre_via" required>
+            </div><br>
+            <div>
+                <label for="codigo_postal">Código postal: </label>
+                <input type="text" name="codigo_postal" id="codigo_postal" required>
+            </div><br>
+            <div>
+                <label for="ciudad">Ciudad: </label>
+                <input type="text" name="ciudad" id="ciudad" required>
+            </div><br>
+            <div>
+                <label for="provincia">Provincia: </label>
+                <input type="text" name="provincia" id="provincia" required>
+            </div><br>
+            <div>
+                <label for="pais">País: </label>
+                <input type="text" name="pais" id="pais" required>
+            </div><br>
+            <div>
+                <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+            </div><br>
+            <div>
+                <label for="nota_media">Nota media en la universidad: </label>
+                <input type="number" step="0.01" min="0" max="10" name="nota_media" id="nota_media" required>
+            </div><br>
+            <div>
+                <label for="telefono">Número de teléfono: </label>
+                <input type="text" name="telefono" id="telefono" pattern="[0-9]{9}" required>
+            </div><br>
+            <div>
+                <label for="correo">Correo electrónico: </label>
+                <input type="email" name="correo" id="correo" required>
+            </div><br>
+            <div>
+                <label for="pass">Contraseña: </label>
+                <input type="password" name="pass" id="pass" required>
+            </div><br>
+            <div>
+                <label for="pass2">Repetir contraseña: </label>
+                <input type="password" name="pass2" id="pass2" pattern="pass" required>
+            </div><br>
+            <div>
+                <label for="select_pais">Selecciona un país: </label>
+                <select name="select_pais" id="select_pais" required>
+                    <option>España</option>
+                    <option>Francia</option>
+                    <option>Portugal</option>
+                    <option>Andorra</option>
+                </select>
+            </div><br>
+            <div><b>Tipo de cuenta:</b></div>
+            <div>
+                <input type="radio" name="tipo_cuenta" id="gratuita" value="Gratuita">
+                <label for="gratuita">Gratuita (La cuenta gratuita te ofrece acceso básico a nuestra plataforma)</label>
+                <br>
+                
+                <input type="radio" name="tipo_cuenta" id="basica" value="Básica">
+                <label for="basica">Básica (La cuenta básica te ofrece acceso a funciones adicionales)</label>
+                <br>                
+
+                <input type="radio" name="tipo_cuenta" id="premium" value="Premium">
+                <label for="premium">Premium (La cuenta premium te ofrece acceso completo a todas nuestras funciones y servicios)</label>
+            </div><br>
+            <div>
+                <label for="sobre_mi">Sobre mí: </label>
+                <textarea name="sobre_mi" id="sobre_mi" cols="20" rows="5"></textarea>
+            </div><br>
+            <div>
+                <label for="foto_perfil">Foto de perfil:</label>
+                <input type="file" id="foto_perfil" name="foto_perfil">
+            </div><br>
+            <div>
+                <label for="cv">Subir CV:</label>
+                <input type="file" id="cv" name="cv">
+            </div>
+            
+                
+                
+                
+                
+                
+                
+            
+        
+        
+
+
+    </form>
+    
+</body>
+</html>
