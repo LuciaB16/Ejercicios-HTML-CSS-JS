@@ -1,0 +1,62 @@
+/*Estilo para los divs cuadrados*/
+.cuadrado {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+#cuadrados {
+    background-color: lightgray;
+}
+
+/*Estilo para los divs con bordes rectangulares*/
+.rectangulo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20% ;
+}
+
+#rectangulares {
+    background-color: lightyellow;
+}
+
+/*Estilo para los divs redondos*/
+#redondos {
+    background-color: lightblue;
+}
+
+.redondo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/*Cambio de puntero*/
+.cuadrado, .rectangulo, .redondo {
+    cursor: pointer;
+}
