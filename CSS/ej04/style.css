@@ -1,0 +1,76 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th,td {     
+    border: 1px solid black;   
+    padding: 10px;
+    text-align: center;
+}
+
+.cuadrado, .rectangulo, .redondo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+    display: inline-block;
+}
+.redondo {
+    border-radius: 50%;
+}
+.rectangulo {    
+    border-radius: 20% ;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+#cuadrados {
+    background-color: lightgray;
+}
+
+#rectangulares {
+    background-color: lightyellow;
+}
+
+#redondos {
+    background-color: lightblue;
+}
+
+td:nth-child(2) {
+    background-color: green;
+}
+
+td:nth-child(3) {
+    background-color: yellow;
+}
+
+td:nth-child(4) {
+    background-color: blue;
+}
+
+td:nth-child(5) {
+    background-color: orange;
+}
+
+td:nth-child(6) {
+    background-color: red;
+}
