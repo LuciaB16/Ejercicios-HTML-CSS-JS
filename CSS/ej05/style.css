@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cuadrado {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}
+
+/*Alineados al inicio*/
+.inicio {
+    justify-content: flex-start;
+}
+
+/*Alineados al final*/
+.final {
+    justify-content: flex-end;
+}
+
+/*Espaciados ocupando toda la fila*/
+.espaciados {
+    justify-content: space-between;
+}
+
+/*Invirtiendo el orden original*/
+.invertidos {
+    flex-direction: row-reverse;
+}
