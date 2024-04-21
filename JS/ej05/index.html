@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <h1>Alarma</h1>
+    <label for="segundos">Segundos:</label>
+    <input type="number" id="segundos" min="1">
+    <button id="btnIniciar" onclick="iniciarAlarma()">Iniciar</button>
+    <button id="btnPosponer" onclick="posponerAlarma()">Posponer</button>
+    <button id="btnDetener" onclick="detenerAlarma()">Detener</button>
+    <div id="mensaje" style="display: none;">La alarma está sonando!</div>
+    <div id="contador"></div>
+    
+</body>
+</html>
